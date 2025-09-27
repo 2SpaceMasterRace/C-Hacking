@@ -55,8 +55,3 @@ mycat input.txt
           man getpid.2 // section 2 is programmer’s manual
 
 
-
-
-
-
-
