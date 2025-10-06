@@ -9,10 +9,10 @@
 
 int main(int argc, char *argv[]) {
   int source_file;
-  char buffer[BUFFER_SIZE];
-  ssize_t bytes_read;
   int sleep_time;
   pid_t process_id;
+  char buffer[BUFFER_SIZE];
+  ssize_t bytes_read;
 
   source_file = open(argv[1], O_RDONLY);
   if (source_file == -1) {
